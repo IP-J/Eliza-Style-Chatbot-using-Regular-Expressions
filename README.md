@@ -1,6 +1,6 @@
 # Implementing solutions using Python - part 1
 
-# Problem 1:  Write an ELIZA-style chatbot that can hold conversations along the lines of the following conversation. The parentheses provide options of input.
+## Problem 1:  Write an ELIZA-style chatbot that can hold conversations along the lines of the following conversation. The parentheses provide options of input.
 1. Person: Where am I?
    
    • Bot: Next to me.
@@ -14,7 +14,7 @@
    
    • Bot: Things will become clearer soon
 
-# Problem 2: Author attribution using the n-gram language model
+## Problem 2: Author attribution using the n-gram language model
 Authorship attribution is the problem of identifying the author of a given document by looking at other writings by the
 same author.
 For example, given two works by William Shakespeare and two by Jane Austen, try to identify the potential author of a
@@ -23,7 +23,7 @@ One way of tackling this problem is to learn two n-gram models, one for Shakespe
 below. Then look up the probabilities of all the n-grams in the new sentence and multiply them to end up with the
 total likelihood of the sentence. 
 
-# Problem 3: Fake versus real news classification using naive Bayes
+## Problem 3: Fake versus real news classification using naive Bayes
 Given a dataset of real and fake news, we will implement a Naive Bayes classifier and test it. In this task we are
 going to lookup various suggested libraries to achieve the steps mentioned below.
 Data summary
